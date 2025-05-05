@@ -7,7 +7,6 @@ body {
 a {
     text-decoration: none;
     color: #2e2f42;
-    font-style: normal;
 }
 
 ul {
@@ -44,11 +43,12 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.contacts {
+.contacts .contact-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .nav-link:hover,
@@ -93,10 +93,11 @@ ul {
 .title-second {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .title-third {
@@ -120,8 +121,6 @@ ul {
 
 .team-member {
     background-color: #FFFFFF;
-    width: 264px;
-    height: 380px;
     text-align: center;
 }
 
